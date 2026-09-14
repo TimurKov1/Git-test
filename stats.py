@@ -1,5 +1,5 @@
 def calculate_mean(numbers):
-    # среднее значение списка
+    """Возвращает среднее арифметическое"""
     return sum(numbers) / len(numbers)
 
 def calculate_std(numbers):
